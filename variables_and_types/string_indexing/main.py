@@ -10,7 +10,7 @@ last_char3 = grocery_item [-1]
 
 
 
-# Testing
+# Testing commit
 print("Length of item name:", length_of_item)
 print("First character of each word:", first_char, second_char, third_char)
 print("First character of each word:", last_char1,last_char2,last_char3)
