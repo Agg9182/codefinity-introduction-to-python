@@ -12,7 +12,6 @@ eggs_price = eggs_tuple[1]
 if eggs_price >=5 :
     print("Eggs are too expensive, reducing the price by $1.")
     eggs_price = eggs_price - 1
-    #print(eggs_price)
     grocery_inventory.update({"Eggs": ("Dairy", eggs_price, 30)})
 else :
     print("The price of Eggs is reasonable.")
