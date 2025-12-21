@@ -25,3 +25,15 @@ while milk_stock < min_stock:
     
 # Output the final stock level after restocking is complete
 print(f"Milk stock updated: {milk_stock} units, which is now sufficient.")
+
+# Handling a queue at a grocery store checkout
+queue_length = 5  # Initial number of people in the queue
+while queue_length > 0:  # Start the `while` loop as long as the queue isn't empty
+    print(f"Current queue size: {queue_length}")
+    
+    # Simulate serving a customer
+    print("Serving the next customer...")
+    
+    # Decrease the queue length by 1 as a customer leaves
+    # The `-=` operator is a shortcut for `queue_length = queue_length - 1`
+    queue_length -= 1
