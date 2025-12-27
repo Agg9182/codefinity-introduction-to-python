@@ -15,7 +15,7 @@ count_bananas = shelf.count("bananas")
 if count_bananas <= 5:
     print("Apples need to be restocked.")
 else :
-    Print("Apples are sufficiently stocked.")
+    print("Apples are sufficiently stocked.")
 
 #count stock of grapes
 grapes_count = shelf.count("grapes")
