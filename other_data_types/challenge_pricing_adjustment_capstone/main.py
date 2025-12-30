@@ -8,7 +8,7 @@ grocery_inventory = {
 #check eggs price
 eggs_tuple = grocery_inventory["Eggs"]
 eggs_price = eggs_tuple[1]
-#print(eggs_price)
+print(eggs_price)
 if eggs_price >=5 :
     print("Eggs are too expensive, reducing the price by $1.")
     eggs_price = eggs_price - 1
